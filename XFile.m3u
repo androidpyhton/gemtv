@@ -1,0 +1,8 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="usatv.us" tvg-name="USA TV" tvg-logo="https://cdn.jsdelivr.net/gh/oziltv/TARKAM@main/logi-ciky.png" group-title="USA Channels",USA TV
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=043ba1b4a2823fc4a6033178f3560431:684358d80874b55f9335c73126e4d44e
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streaming.sportsnews.id/|Origin=https://streaming.sportsnews.id|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s/Live/channel(usa-east)/master.mpd
