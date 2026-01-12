@@ -6,3 +6,18 @@
 #KODIPROP:inputstream.adaptive.license_key=043ba1b4a2823fc4a6033178f3560431:684358d80874b55f9335c73126e4d44e
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://streaming.sportsnews.id/|Origin=https://streaming.sportsnews.id|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s/Live/channel(usa-east)/master.mpd
+
+
+#EXTINF:-1 tvg-id="usatv" tvg-logo="https://cdn.jsdelivr.net/gh/oziltv/TARKAM@main/logi-ciky.png" group-title="Live USA",USA TV
+#EXTVLCOPT:http-referrer=https://streaming.sportsnews.id/
+#EXTVLCOPT:http-origin=https://streaming.sportsnews.id
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Mobile) ExoPlayer/Media3
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=043ba1b4a2823fc4a6033178f3560431:684358d80874b55f9335c73126e4d44e
+https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s/Live/channel(usa-east)/master.mpd
+
+
+
+
+
