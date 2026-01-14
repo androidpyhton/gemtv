@@ -10,6 +10,34 @@
 https://fsly.stream.peacocktv.com/Content/CMAF_OL2-CTR-4s/Live/channel(usa-east)/master.mpd
 
 
+# Widevine test (Sintel)
+#EXTINF:-1 tvg-id="" tvg-name="Sintel - Widevine" group-title="DEMO" tvg-logo="https://shaka-player-demo.appspot.com/demo/images/sintel.jpg",Sintel - Widevine
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_url=https://cwip-shaka-proxy.appspot.com/no_auth
+#EXTHTTP:{"User-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+https://storage.googleapis.com/shaka-demo-assets/sintel-widevine/dash.mpd
+
+# ClearKey test (Angel-One)
+#EXTINF:-1 tvg-id="" tvg-name="Angel-One - ClearKey" group-title="DEMO" tvg-logo="https://shaka-player-demo.appspot.com/demo/images/angel-one.jpg",Angel-One - ClearKey
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ac8b2f7af05ad829805345a517bc110:ee1ae1cd086fa9bfc0505e6d5e9e27e9
+#EXTHTTP:{"User-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+https://storage.googleapis.com/shaka-demo-assets/angel-one-clearkey/dash.mpd
+
+# PlayReady test (Tears of Steel)
+#EXTINF:-1 tvg-id="" tvg-name="Tears of Steel - PlayReady" group-title="DEMO" tvg-logo="https://archive.org/services/img/TearsofSteel",Tears of Steel - PlayReady
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.microsoft.playready
+#KODIPROP:inputstream.adaptive.license_url=http://test.playready.microsoft.com/service/rightsmanager.asmx?cfg=(persist:false,sl:150)
+#EXTHTTP:{"User-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+https://test.playready.microsoft.com/media/profficialsite/tearsofsteel_4k.ism/manifest.mpd
+
+
 
 
 
