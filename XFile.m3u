@@ -38,6 +38,47 @@ https://storage.googleapis.com/shaka-demo-assets/angel-one-clearkey/dash.mpd
 https://test.playready.microsoft.com/media/profficialsite/tearsofsteel_4k.ism/manifest.mpd
 
 
+# ===========================================
+# 🎬 DEMO STREAMING DRM + NON-DRM TEST PLAYLIST
+# ===========================================
+
+# ▶ Widevine test (Sintel - DASH)
+#EXTINF:-1 tvg-id="" tvg-name="Sintel - Widevine" group-title="🧩 DRM TEST" tvg-logo="https://shaka-player-demo.appspot.com/demo/images/sintel.jpg",Sintel - Widevine
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_url=https://cwip-shaka-proxy.appspot.com/no_auth
+#EXTHTTP:{"User-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+https://storage.googleapis.com/shaka-demo-assets/sintel-widevine/dash.mpd
+
+# ▶ ClearKey test (Angel-One - DASH)
+#EXTINF:-1 tvg-id="" tvg-name="Angel-One - ClearKey" group-title="🧩 DRM TEST" tvg-logo="https://shaka-player-demo.appspot.com/demo/images/angel-one.jpg",Angel-One - ClearKey
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=8ac8b2f7af05ad829805345a517bc110:ee1ae1cd086fa9bfc0505e6d5e9e27e9
+#EXTHTTP:{"User-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+https://storage.googleapis.com/shaka-demo-assets/angel-one-clearkey/dash.mpd
+
+# ▶ PlayReady test (Tears of Steel - DASH)
+#EXTINF:-1 tvg-id="" tvg-name="Tears of Steel - PlayReady" group-title="🧩 DRM TEST" tvg-logo="https://archive.org/services/img/TearsofSteel",Tears of Steel - PlayReady
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.microsoft.playready
+#KODIPROP:inputstream.adaptive.license_url=http://test.playready.microsoft.com/service/rightsmanager.asmx?cfg=(persist:false,sl:150)
+#EXTHTTP:{"User-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+https://test.playready.microsoft.com/media/profficialsite/tearsofsteel_4k.ism/manifest.mpd
+
+# ▶ HLS test (Big Buck Bunny)
+#EXTINF:-1 tvg-id="" tvg-name="Big Buck Bunny - HLS" group-title="🎞️ NON-DRM TEST" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/70/Big_Buck_Bunny_thumbnail_v2.jpg",Big Buck Bunny - HLS
+#EXTHTTP:{"User-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+# ▶ MP4 test (Elephants Dream)
+#EXTINF:-1 tvg-id="" tvg-name="Elephants Dream - MP4" group-title="🎞️ NON-DRM TEST" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Elephants_Dream_s1_proog.jpg/320px-Elephants_Dream_s1_proog.jpg",Elephants Dream - MP4
+#EXTHTTP:{"User-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4
+
 
 
 
