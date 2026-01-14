@@ -15,7 +15,7 @@
 # =======================================================
 # Format: kompatibel untuk parser IPTV / ExoPlayer / Kodi
 # User-Agent: Chrome 126 / Windows
-# =======================================================
+# ======================================================
 
 # ▶ Widevine test (Sintel - DASH)
 #EXTINF:-1 tvg-id="" tvg-name="Sintel - Widevine" group-title="🧩 DRM TEST" tvg-logo="https://shaka-player-demo.appspot.com/demo/images/sintel.jpg",Sintel - Widevine
