@@ -75,3 +75,104 @@ https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd
 ############################################################
 #EXTINF:-1 tvg-id="hls-live" tvg-name="Sample HLS Live" tvg-logo="" group-title="LIVE", Sample HLS Live
 https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+
+# =========================================================
+# DASH – NON DRM
+# =========================================================
+#EXTINF:-1 tvg-id="DASH_FREE" tvg-name="DASH Free" tvg-logo="" group-title="TEST", DASH No DRM
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd
+
+
+# =========================================================
+# DASH – CLEARKEY (INLINE JSON)
+# =========================================================
+#EXTINF:-1 tvg-id="CK_INLINE" tvg-name="ClearKey Inline" tvg-logo="" group-title="TEST", DASH ClearKey Inline
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"Y2xlYXJrZXl0ZXN0","k":"MTIzNDU2Nzg5MGFiY2RlZg"}],"type":"temporary"}
+https://storage.googleapis.com/shaka-demo-assets/angel-one-clearkey/dash.mpd
+
+
+# =========================================================
+# DASH – CLEARKEY (LICENSE URL)
+# =========================================================
+#EXTINF:-1 tvg-id="CK_URL" tvg-name="ClearKey URL" tvg-logo="" group-title="TEST", DASH ClearKey URL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referer=https://example.com/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://cwip-shaka-proxy.appspot.com/no_auth
+https://storage.googleapis.com/shaka-demo-assets/angel-one-clearkey/dash.mpd
+
+
+# =========================================================
+# DASH – WIDEVINE
+# =========================================================
+#EXTINF:-1 tvg-id="WV_DASH" tvg-name="Widevine DASH" tvg-logo="" group-title="TEST", DASH Widevine
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cwip-shaka-proxy.appspot.com/license
+https://storage.googleapis.com/shaka-demo-assets/angel-one-widevine/dash.mpd
+
+
+# =========================================================
+# DASH – REFERER + ORIGIN
+# =========================================================
+#EXTINF:-1 tvg-id="DASH_REF" tvg-name="DASH Referer" tvg-logo="" group-title="TEST", DASH Referer Origin
+#EXTVLCOPT:http-referer=https://example.com/
+#EXTVLCOPT:http-origin=https://example.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+https://dash.akamaized.net/envivio/EnvivioDash3/manifest.mpd
+
+
+# =========================================================
+# HLS / M3U8
+# =========================================================
+#EXTINF:-1 tvg-id="HLS_STD" tvg-name="HLS Standard" tvg-logo="" group-title="TEST", HLS Standard
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+
+# =========================================================
+# HLS – REFERER + ORIGIN
+# =========================================================
+#EXTINF:-1 tvg-id="HLS_REF" tvg-name="HLS Referer" tvg-logo="" group-title="TEST", HLS Referer Origin
+#EXTVLCOPT:http-referer=https://example.com/
+#EXTVLCOPT:http-origin=https://example.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+
+
+# =========================================================
+# MPEG-TS
+# =========================================================
+#EXTINF:-1 tvg-id="TS" tvg-name="Transport Stream" tvg-logo="" group-title="TEST", MPEG-TS
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://test-streams.mux.dev/pts_shift/master.m3u8
+
+
+# =========================================================
+# MP4
+# =========================================================
+#EXTINF:-1 tvg-id="MP4" tvg-name="MP4 Video" tvg-logo="" group-title="TEST", MP4 Progressive
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+
+
+# =========================================================
+# MOV
+# =========================================================
+#EXTINF:-1 tvg-id="MOV" tvg-name="MOV Video" tvg-logo="" group-title="TEST", QuickTime MOV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://file-examples.com/storage/fe5f8f4fdbf6a4f89f2/file_example_MOV_480_700kB.mov
+
