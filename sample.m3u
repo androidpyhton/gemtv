@@ -1,0 +1,77 @@
+#EXTM3U
+############################################################
+## SAMPLE DASH – CLEARKEY (Bitmovin)
+############################################################
+#EXTINF:-1 tvg-id="dash-clearkey" tvg-name="Sample DASH ClearKey" tvg-logo="" group-title="DASH", Sample DASH ClearKey
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"1f1e1d1c1b1a19181716151413121110","k":"Lrq3cKZJrKpZ8nfd3zYp4A"}],"type":"temporary"}
+https://bitmovin-a.akamaihd.net/content/art-of-motion_drm/mpds/11331.mpd
+
+############################################################
+## SAMPLE DASH – WIDEVINE (Shaka Player)
+############################################################
+#EXTINF:-1 tvg-id="dash-widevine" tvg-name="Sample DASH Widevine" tvg-logo="" group-title="DASH", Sample DASH Widevine
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://cwip-shaka-proxy.appspot.com/no_auth
+https://storage.googleapis.com/shaka-demo-assets/angel-one-widevine/dash.mpd
+
+############################################################
+## SAMPLE DASH + REFERER
+############################################################
+#EXTINF:-1 tvg-id="dash-referer" tvg-name="Sample DASH Referer" tvg-logo="" group-title="DASH", Sample DASH Referer
+#EXTVLCOPT:http-referer=https://example.com/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+https://dash.akamaized.net/envivio/EnvivioDash3/manifest.mpd
+
+############################################################
+## SAMPLE HLS / M3U8
+############################################################
+#EXTINF:-1 tvg-id="hls-basic" tvg-name="Sample HLS Basic" tvg-logo="" group-title="HLS", Sample HLS
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+############################################################
+## SAMPLE HLS / M3U8 + REFERER + ORIGIN
+############################################################
+#EXTINF:-1 tvg-id="hls-referer" tvg-name="Sample HLS Referer" tvg-logo="" group-title="HLS", Sample HLS Referer
+#EXTVLCOPT:http-referer=https://example.com/
+#EXTVLCOPT:http-origin=https://example.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://test-streams.mux.dev/test_001/stream.m3u8
+
+############################################################
+## SAMPLE MP4
+############################################################
+#EXTINF:-1 tvg-id="mp4-sample" tvg-name="Sample MP4" tvg-logo="" group-title="MP4", Sample MP4
+https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4
+
+############################################################
+## SAMPLE TS
+############################################################
+#EXTINF:-1 tvg-id="ts-sample" tvg-name="Sample TS" tvg-logo="" group-title="TS", Sample TS
+https://test-streams.mux.dev/bbb-abr/bbb-abr-768x432-1200kbps.ts
+
+############################################################
+## SAMPLE MOV
+############################################################
+#EXTINF:-1 tvg-id="mov-sample" tvg-name="Sample MOV" tvg-logo="" group-title="MOV", Sample MOV
+https://file-examples.com/storage/fe6dcb8d4b09c9a8e9f2c01/2017/04/file_example_MOV_480_700kB.mov
+
+############################################################
+## SAMPLE DASH NON-DRM
+############################################################
+#EXTINF:-1 tvg-id="dash-nodrm" tvg-name="Sample DASH No DRM" tvg-logo="" group-title="DASH", Sample DASH No DRM
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd
+
+############################################################
+## SAMPLE HLS LIVE
+############################################################
+#EXTINF:-1 tvg-id="hls-live" tvg-name="Sample HLS Live" tvg-logo="" group-title="LIVE", Sample HLS Live
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
