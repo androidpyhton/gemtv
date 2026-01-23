@@ -3,3 +3,39 @@
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f48a8131e05f4d6e84de19f086c781a6:fd28f2f966a906f4d4dcfd72ae90094e
 https://cors.ssss.fun/https://v4-kun-v13-cdn-02.live.cdn.cgates.lt/live/dash/560502/index.mpd
+
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=08de1382b39f056f001ba897f58fda01:bbc1ce3249ba5ea4e1f9915120401be0
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://2.bp.blogspot.com/-um_Ng3uoqW4/XDCh54AwPPI/AAAAAAAAS20/rGOyhw5ahh4Fa3X5jnNH89fgJT7GSFCbgCLcBGAs/s1600/1ksasp.jpg" group-title="🌏 SPORTS ⚽︎", KSA SPORT 2
+https://cors.ssss.fun/https://uselector.cdn.intigral-ott.net/KSS2/KSS2.isml/manifest.mpd
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f7b7376cdcaa8d53a823ac5248b89584:33057303995b0a090d4a52ca715ec27b
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://2.bp.blogspot.com/-um_Ng3uoqW4/XDCh54AwPPI/AAAAAAAAS20/rGOyhw5ahh4Fa3X5jnNH89fgJT7GSFCbgCLcBGAs/s1600/1ksasp.jpg" group-title="🌏 SPORTS ⚽︎", KSA SPORT 3
+https://cors.ssss.fun/https://uselector.cdn.intigral-ott.net/KSAS1/KSAS1.isml/manifest.mpd
+
+#EXTINF:-1 tvg-id="Arena Premium 1" tvg-logo="https://r2.thesportsdb.com/images/media/channel/fanart/nqswos1726868167.jpg" group-title="🌏 SPORTS ⚽︎",  Arena Premium 1
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://vs.portfalcon.workers.dev/key?id=juplm
+https://cors.ssss.fun/https://bpkcdn.telekom.me/bpk-tv/arena_premium_1/default/index.mpd
+
+#EXTINF:-1 tvg-id="Arena Sport 1" tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/wmvrmi1643205486.png" group-title="🌏 SPORTS ⚽︎",  Arena Sport 1
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://vs.portfalcon.workers.dev/key?id=scvtu
+https://cors.ssss.fun/https://bpkcdn.telekom.me/bpk-tv/arenasport_1/default/index.mpd
+
+
+#EXTINF:-1 tvg-id="V sport 1 HD (N) (T).no" tvg-logo="https://www.epressi.com/media/userfiles/132558/1586268305/v-logo-1.jpg" group-title="🌏 SPORTS ⚽︎",  V Sport 1 
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://vs.portfalcon.workers.dev/key?id=szxcv
+https://cors.ssss.fun/https://cd-stream-live.telenorcdn.net/cdgo/sm_viasport1_hd_live/sm_viasport1_hd_live.isml/playlist.mpd
+
+#EXTINF:-1 tvg-id="V sport 2 HD (N) (T).no" tvg-logo="https://www.epressi.com/media/userfiles/132558/1586268305/v-logo-1.jpg" group-title="🌏 SPORTS ⚽︎",  V Sport 2 
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://vs.portfalcon.workers.dev/key?id=fghjk
+https://cors.ssss.fun/https://cd-stream-live.telenorcdn.net/cdgo/sm_viasport2_hd_live/sm_viasport2_hd_live.isml/playlist.mpd
