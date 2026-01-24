@@ -1,29 +1,5 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="v-sport-1-no" tvg-logo="https://i.ibb.co.com/WsDcpQq/vsport1.png" group-title="DASH",  Sample DASH 026
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vs.portfalcon.workers.dev/key?id=fghjk
-https://cors-proxy.cooks.fyi/https://cd-stream-live.telenorcdn.net/cdgo/sm_viasport2_hd_live/sm_viasport2_hd_live.isml/playlist.mpd
-
-#EXTINF:-1 tvg-id="v-sport-1-no" tvg-logo="https://i.ibb.co.com/WsDcpQq/vsport1.png" group-title="DASH",  Sample DASH 020
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vs.portfalcon.workers.dev/key?id=fghjk
-https://mpg-cors-proxy.herokuapp.com/https://cd-stream-live.telenorcdn.net/cdgo/sm_viasport2_hd_live/sm_viasport2_hd_live.isml/playlist.mpd
-
-#EXTINF:-1 tvg-id="v-sport-1-no" tvg-logo="https://i.ibb.co.com/WsDcpQq/vsport1.png" group-title="DASH",  Sample DASH 022
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"b62aca5b566dc3ded74233192b28a120":"e8c5369c9c4aa58c1c8489c7db52db8c","b62aca5b566dc3ded74233192b28a110":"143bfe648cc9d14917d41e0662452771"}
-https://cors-proxy.cooks.fyi/https://cd-stream-live.telenorcdn.net/cdgo/sm_viasport2_hd_live/sm_viasport2_hd_live.isml/playlist.mpd
-
-#EXTINF:-1 tvg-id="v-sport-1-no" tvg-logo="https://i.ibb.co.com/WsDcpQq/vsport1.png" group-title="DASH",  Sample DASH 023
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://vs.portfalcon.workers.dev/key?id=fghjk
-https://cors-anywhere.bronista.ru/https://cd-stream-live.telenorcdn.net/cdgo/sm_viasport2_hd_live/sm_viasport2_hd_live.isml/playlist.mpd
-
 
 #EXTINF:-1 tvg-id="dash-widevine" tvg-name="Sample DASH Widevine" tvg-logo="" group-title="DASH", Sample DASH Widevine
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -33,7 +9,7 @@ https://cors-anywhere.bronista.ru/https://cd-stream-live.telenorcdn.net/cdgo/sm_
 https://storage.googleapis.com/shaka-demo-assets/angel-one-widevine/dash.mpd
 
 #EXTINF:-1 tvg-id="" tvg-name="Sample DVB TV headend " tvg-logo="" group-title="DASH", Sample url DVB tv headend
-http://103.46.10.145:9981/stream/channelid/2068418811?ticket=F6A638CAE3935CAFE3EF877AC34403F7AF116910&profile=pass
+http://188.191.160.238:7780/udp/239.195.3.17:1234
 
 
 
