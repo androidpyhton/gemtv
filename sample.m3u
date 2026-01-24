@@ -11,7 +11,8 @@ https://storage.googleapis.com/shaka-demo-assets/angel-one-widevine/dash.mpd
 #EXTINF:-1 tvg-id="" tvg-name="Sample DVB TV headend " tvg-logo="" group-title="DASH", Sample url DVB tv headend
 http://188.191.160.238:7780/udp/239.195.3.17:1234
 
-
+#EXTINF:-1 tvg-id="" tvg-name="Sample DVB TV headend " tvg-logo="" group-title="DASH", Sample url DVB tv headend 022
+http://77.46.130.252:99/maxsport4
 
 
 ############################################################
