@@ -12,6 +12,14 @@ http://77.46.130.252:99/maxsport4
 #EXTINF:-1 tvg-id="" tvg-name="Sample DVB TV headend " tvg-logo="" group-title="DASH", Sample url DVB 88
 http://93.93.113.95:25461/TV-Berati/XtreamCodes/494
 
+#EXTINF:-1 tvg-id="GTV.id" tvg-name="GTV" group-title="Vision+ Channels" group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiGwwHL6hc82aCuvzkpg3fCZg1Ich8rix_uA&s" tvg-logo="https://www.visionplus.id/images/repository/951/49951-SNAPSHOT-m.png",GTV
+#EXTVLCOPT:http-referrer=https://www.visionplus.id/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:138.0) Gecko/20100101 Firefox/138.0
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"TG+bFd+rKhabK3ikmMTXfQ", "kid":"A26F3gu0SO6yHTmrMA2kjg" } ], "type":"temporary" }
+https://fta2-cdn-flr.visionplus.id/out/v1/b8b9b1d5f80f45649b4a3619291551ab/index.mpd
+
 
 #EXTINF:-1 tvg-id="dash-widevine" tvg-name="Sample DASH Widevine" tvg-logo="" group-title="DASH", Sample DASH Widevine
 #KODIPROP:inputstreamaddon=inputstream.adaptive
