@@ -20,6 +20,11 @@ http://93.93.113.95:25461/TV-Berati/XtreamCodes/494
 #KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"TG+bFd+rKhabK3ikmMTXfQ", "kid":"A26F3gu0SO6yHTmrMA2kjg" } ], "type":"temporary" }
 https://fta2-cdn-flr.visionplus.id/out/v1/b8b9b1d5f80f45649b4a3619291551ab/index.mpd
 
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Cutsiffa/Cutsiffa/main/Lalilagspain.jpg" group-title="☆LIGA SPANYOL☆", CH 3
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"bef45d69a359c3c5ab265b807b0b11ee":"3572bdc32850a0d0e4a95bffd000383c","d8958c9208065f25a365a66a49ad44bd":"5bd96fa145739a44a876668b77c44693","21b3c2f352325ac4ab820c83578e87a8":"6264dbb0644b7de9a96ad479d86a963c","a9532ab91cf15348a20e7d0c235e0987":"2b2bfa0bfe707eab164686c7b797a6fb"}
+https://ac-009.live.p7s1video.net/4cb9b4be/t_009/3sat-de-hd/cenc-default.mpd
+
 
 #EXTINF:-1 tvg-id="dash-widevine" tvg-name="Sample DASH Widevine" tvg-logo="" group-title="DASH", Sample DASH Widevine
 #KODIPROP:inputstreamaddon=inputstream.adaptive
