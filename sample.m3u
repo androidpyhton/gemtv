@@ -13,6 +13,12 @@ https://cdnjktbpid02.transvision.co.id/live/master/1/4028c6856c3db2cc016cd6e8258
 #KODIPROP:inputstream.adaptive.license_key=https://qtv.my.id/cubmu/drm.php?token=pprTr1q1lir7kI8yzvbW8FSJlvVKf43z
 https://qtv.my.id/cubmu/index.mpd?id=4028c6856b6088c3016b87d64b970b53
 
+#EXTINF:-1 tvg-id="HubSports1HD" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/201_1920x1080_HTV.png" group-title="HUB SPORTS",HUBSPORTS 1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=42a10a01419642de97ee025db907fccd:04173eabe97faf32a1697878f5bdb156
+https://anywhere.pwisetthon.com/https://CO2-BKS400-05.starhubgo.com:443/bpk-token/1ab@w23nckcxxxjiz11cykova11euufpptqswc3plsca/bpk-tv/HubSports1HDnew1/output/manifest.mpd?bkm-query
+
+
 #EXTINF:-1 tvg-id="" tvg-name="Sample DVB TV headend " tvg-logo="" group-title="DASH", Sample url DVB tv headend
 http://188.191.160.238:7780/udp/239.195.3.17:1234
 
