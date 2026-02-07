@@ -8,6 +8,11 @@ http://103.172.71.153:9981/stream/channelid/1781718036?profile=pass
 #KODIPROP:inputstream.adaptive.license_key=https://qtv.my.id/cubmu/drm.php?token=pprTr1q1lir7kI8yzvbW8FSJlvVKf43z
 https://cdnjktbpid02.transvision.co.id/live/master/1/4028c6856c3db2cc016cd6e825832393/manifest.mpd?sign=ff61564e8f5e585d5dc43754c0cfbcc4&time=1770446108
 
+#EXTINF:-1 tvg-logo="" group-title="TRANSVISION", HBO
+KODIPROP:inputstream.adaptive.license_type=widevine
+#KODIPROP:inputstream.adaptive.license_key=https://qtv.my.id/cubmu/drm.php?token=pprTr1q1lir7kI8yzvbW8FSJlvVKf43z
+https://qtv.my.id/cubmu/index.mpd?id=4028c6856b6088c3016b87d64b970b53
+
 #EXTINF:-1 tvg-id="" tvg-name="Sample DVB TV headend " tvg-logo="" group-title="DASH", Sample url DVB tv headend
 http://188.191.160.238:7780/udp/239.195.3.17:1234
 
