@@ -11,14 +11,14 @@ https://cdnjktbpid02.transvision.co.id/live/master/1/4028c6856c3db2cc016cd6e8258
 #EXTINF:-1 tvg-logo="" group-title="TRANSVISION", HBO
 #KODIPROP:inputstream.adaptive.license_type=widevine
 #KODIPROP:inputstream.adaptive.license_key=https://qtv.my.id/cubmu/drm.php?token=pprTr1q1lir7kI8yzvbW8FSJlvVKf43z
-https://qtv.my.id/cubmu/index.mpd?id=4028c6856b6088c3016b87d64b970b53
+https://qtv.my.id/cubmu/index.mpd
 
 #KODIPROP:inputstreamaddon=inputstream.adaptive 
 #KODIPROP:inputstream.adaptive.manifest_type=dash 
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=79f4028730acca9ab8b00f26158ddb10:91febe843c08c7cc523efd827292e40e
-#EXTINF:-1 tvg-id="814.astro" tvg-logo="http://linear-poster.astro.com.my/prod/logo/AstroFootball_2024.png" group-logo="" group-title="",Astro Football
-https://anywhere.pwisetthon.com/https://4e7bc9f6a4934455b47d35625fd385fc.mediatailor.ap-southeast-1.amazonaws.com/v1/dash/ceb8322ae2e84c32cb0fce196fdc60100025ab50/MT-CH29-dash/default_primary.mpd?astro=true
+#KODIPROP:inputstream.adaptive.license_key={ "keys": [ {"kty": "oct","k": "O2Me8GwngoCKbVP_DiTZ4w","kid": "mOgltf6ptBrrszRkWpFsgg" } ], "type": "temporary" }
+#EXTINF:-1 tvg-id="814.astro" tvg-logo="http://linear-poster.astro.com.my/prod/logo/AstroFootball_2024.png" group-logo="" group-title="", HBO FAMILY
+https://unifi-live2.secureswiftcontent.com/Content/DASH/Live/channel(HBOF)/master.mpd.mpd?astro=true
 
 
 #EXTINF:-1 tvg-id="HubSports1HD" tvg-logo="https://poster.starhubgo.com/Linear_Channels2/201_1920x1080_HTV.png" group-title="HUB SPORTS",HUBSPORTS 1
