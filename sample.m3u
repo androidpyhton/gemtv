@@ -1,10 +1,10 @@
 #EXTM3U
 
-EXTINF:-1 tvg-logo="https://www.yes.co.il/media/cwbnbjzc/55_5sport_white-new.png?quality=100" group-logo="https://play-lh.googleusercontent.com/8AgNls4adb1Wsp4ZxGGoaSecwbiBT1wmY1cgRLEwjhltrlS2lNcanpXLT_5IidJpbA=w240-h480-rw" group-title="yes+ Israel" tvg-id="ספורט 5",Sport 5 HD (55)
+EXTINF:-1 tvg-logo="https://www.yes.co.il/media/cwbnbjzc/55_5sport_white-new.png?quality=100" group-logo="https://play-lh.googleusercontent.com/8AgNls4adb1Wsp4ZxGGoaSecwbiBT1wmY1cgRLEwjhltrlS2lNcanpXLT_5IidJpbA=w240-h480-rw" group-title="yes+ Israel" tvg-id="ספורט 5",POLSAT TES
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_key={"c3b32b23081b5486ae5176da9c358808":"4708b352ee1d50ccdf94af9d2a952ed8"}
+#KODIPROP:inputstream.adaptive.license_key={"9dd4a81698d4525a3c3dccf9c1860a7c":"dd48335b7cb0b65a45a8766d725b3b6f"}
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-https://d1zqtf09wb8nt5.cloudfront.net/livedash/oil/freetv/live/sport_5/live.livex?indexMode&amp;dvr=7200000
+https://r.dcs.redcdn.pl/livedash/play/playtv/indigo/live/polsat_sport/live.livx?indexMode&futc
 
 #EXTINF:-1 tvg-logo="https://www.yes.co.il/media/fe4nfkhy/56_5plus_white-new.png?quality=100" group-title="yes+ Israel" tvg-id="ספורט 5 פלוס",Sport 5+ HD (56)
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
