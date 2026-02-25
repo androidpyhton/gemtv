@@ -5,13 +5,13 @@
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_key={"9dd4a81698d4525a3c3dccf9c1860a7c":"dd48335b7cb0b65a45a8766d725b3b6f"}
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-https://r.dcs.redcdn.pl/livedash/play/playtv/indigo/live/polsat_sport/live.livx?indexMode&futc
+https://cors-proxy.cooks.fyi/https://r.dcs.redcdn.pl/livedash/play/playtv/indigo/live/polsat_sport/live.livx?indexMode&futc
 
 #EXTINF:-1 tvg-logo="https://www.yes.co.il/media/fe4nfkhy/56_5plus_white-new.png?quality=100" group-title="yes+ Israel" tvg-id="ספורט 5 פלוס",POLSAT PREM
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_key={"500a020efaa5cf0038480b530e8b875d":"3e7a2e3f11473d24303e838fa072a5a4"}
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-https://r.dcs.redcdn.pl/livedash/play/playtv/indigo/live/polsat_sport_premium_1/live.livx?indexMode&futc
+http://cors.tundracast.com:2000/https://r.dcs.redcdn.pl/livedash/play/playtv/indigo/live/polsat_sport_premium_1/live.livx?indexMode&futc
 
 #EXTINF:-1 tvg-logo="https://www.yes.co.il/media/r1uldzru/57_5gold_white-new.png?quality=100" group-title="yes+ Israel" tvg-id="ספורט 5 גולד",Sport 5 Gold (57)
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
